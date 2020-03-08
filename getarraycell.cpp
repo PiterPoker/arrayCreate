@@ -10,7 +10,7 @@ void getarrcell(int **arr, int o,int p)
 {
 	int *ip= nullptr;
 	ip = &o;
-	cout << "Номер ячейки: " << ip<<" ";
+	cout << "Cell number: " << ip<<" ";
 	ip = &p;
 	cout << " "<< ip<<endl;
 }
