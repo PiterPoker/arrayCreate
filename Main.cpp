@@ -9,12 +9,11 @@ void delarr(int **arr, int a);
 
 int main(int argc, char* argv[])
 {
-	setlocale(LC_ALL, "Russian");
 	int n = 0, m = 0;
-	cout << "¬ведите кол-во строк в массиве: ";
+	cout << "Enter the number of rows in the array: ";
 	cin >> n;
 	cout<< endl;
-	cout << "¬ведите кол-во столбцов в моссиве: ";
+	cout << "Enter the number of columns in the array: ";
 	cin >> m;
 	cout << endl;
 	int **arr = new int *[n];
