@@ -14,7 +14,7 @@ void iarr(int **arr, int a, int b)
 	{
 		for (int j = 0; j < b; j++)
 		{
-			cout << "Введите число " << i << " столбца " << j << " строки: ";
+			cout << "Insert the number " << i << " column " << j << " row: ";
 			cin >> arr[i][j];
 			getarrcell(arr, i, j);
 		}
